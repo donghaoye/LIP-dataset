@@ -26,5 +26,6 @@ palette[:3*21]=np.array([[0, 0, 0],
                         [0, 192, 0],
                         [128, 192, 0],
                         [0, 64, 128]], dtype='uint8').flatten()
+print palette
 im.putpalette(palette)
 im.show()

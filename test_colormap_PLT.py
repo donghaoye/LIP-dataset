@@ -16,3 +16,6 @@ print('regions number:',labels.max()+1)                 #显示连通区域块�
 fig, (ax1) = plt.subplots(1)
 ax1.imshow(dst,interpolation='nearest')
 plt.show()
+
+
+#
